@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "解数独", "解数独\解数独.csproj", "{76965C7D-DF4A-4E3D-9ADE-9F0CB7ED3C3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76965C7D-DF4A-4E3D-9ADE-9F0CB7ED3C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76965C7D-DF4A-4E3D-9ADE-9F0CB7ED3C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76965C7D-DF4A-4E3D-9ADE-9F0CB7ED3C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76965C7D-DF4A-4E3D-9ADE-9F0CB7ED3C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC9CDE94-E6F1-44D7-BFEE-03CA3FF942E9}
+	EndGlobalSection
+EndGlobal
