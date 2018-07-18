@@ -215,21 +215,14 @@ namespace 解数独
         {
             label3.Text = "";
             label1.Focus();
-            for(int i=0;i<9;i++)
+            for (int i = 0; i < 9; i++)
             {
-                for(int j=1;j<=9;j++)
+                for (int j = 1; j <= 9; j++)
                 {
-                    try
-                    {
-                        tableLayoutPanel1.Controls["textBox" + (i * 9 + j).ToString()].KeyPress += new System.Windows.Forms.KeyPressEventHandler(SKeyPress);
-                    }
-                    catch
-                    {
-                        MessageBox.Show((i * 9 + j).ToString());
-                    }
+                    tableLayoutPanel1.Controls["textBox" + (i * 9 + j).ToString()].KeyPress += new System.Windows.Forms.KeyPressEventHandler(SKeyPress);
                 }
             }
-           
+
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
